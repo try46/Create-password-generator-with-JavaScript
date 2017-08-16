@@ -32,7 +32,6 @@
   });
   btn.addEventListener('click', function() {
     getPassword();
-    //result.value = 'skldjfkljasjlfdjsahdofj';
   });
   result.addEventListener('click', function() {
     this.select();
