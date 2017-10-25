@@ -1,0 +1,10 @@
+# Create-password-generator-with-JavaScript
+
+# JavaScriptでパスワードを生成する奴
+ドットインストールの[JavaScriptでパスワードジェネレータを作ろう](http://dotinstall.com/lessons/pwd_generator_js_v3 "リンク") を見て書いた。
+
+## 今後やりたいこと
+~~JSやCSSをHTML内に書いているので外部ファイルにして書き直す~~  
+完了済み
+### 願望
+生成するパスワードを暗号化する(どうしよう)

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=ja>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<title>Password Generator</title>
+</head>
+<body>
+	<div class="container">
+		<p><input type="text" id="result" /></p>
+		<div id="btn" click="getPassword()">Generate Password</div>
+		<fieldset>
+			<legend>Options</legend>
+		<p>Length(<span id="label">8</span>): <input type="range" id="slider" value="8" min="4" max="20" </p>
+				<p>
+					Numbers?: <input type="checkbox" id="numbers" /><br />
+					Symbols?: <input type="checkbox" id="symbols" />
+				</p>
+		</fieldset>
+	</div>
+	<!--container-->
+	<script src="main.js"></script>
+
+</body>
+
+</html>
